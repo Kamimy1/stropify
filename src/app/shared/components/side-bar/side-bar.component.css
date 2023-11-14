@@ -5,8 +5,10 @@
     top: 0;
     left: 0;
     padding: .5rem 1rem;
-    /* background-color: red; */
+    border-radius: 10px;
+    background-color: #202020;
 }
+
 
 .side-bar__list {
     list-style: none;
