@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class MediaPlayerComponent {
 
+  mockCover: any = {
+    cover: 'https://i1.sndcdn.com/artworks-000247627460-1hqnjr-t500x500.jpg',
+    name: 'Titulo',
+    album: 'Album'
+  }
+
 }
