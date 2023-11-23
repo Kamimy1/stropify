@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class TracksPageComponent {
 
+  dynamicTitle = '';
+
+  constructor() {
+    const currentHour = new Date().getHours();
+    if (currentHour < 12) {
+      this.dynamicTitle = '¡Buenos días!';
+    } else if (currentHour < 20) {
+      this.dynamicTitle = '¡Buenas tardes!';
+    } else {
+      this.dynamicTitle = '¡Buenas noches!';
+    }
+  }
+
 }
